@@ -2,7 +2,7 @@ name: Stage the app
 
 on: 
   label:
-    types: [created]
+    types: [created, published]
 
 jobs:
   build:
